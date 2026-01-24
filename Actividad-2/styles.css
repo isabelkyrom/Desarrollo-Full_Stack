@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a8dadc;
+    
+}
+
+header{
+    background-color: #1d3557;
+    padding: 20px 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    img{
+        margin-right: 20px;
+        height: 40px;
+    }
+}
+
+section{
+    padding: 10px 50px;
+}
+
+h2{
+    margin: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #1d3557;
+}
+
+#contenedor{
+
+    display: grid;
+}
+
+ul{
+    list-style: none;
+    padding: 1px;
+    
+}
+
+li{
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    height: auto;
+    width: auto;
+    background-color: #f1faee;
+    color: #463f3a;
+    border-radius: 8px;
+
+    
+    
+    box-shadow: 0 0 10px #457b9d;
+
+    h3{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    h4{
+        font-size: 16px;
+        font-weight: bold;
+        color: #1d3557;
+    }
+    p{
+        font-size: 18px;
+        margin: 0;
+        line-height: 30px;
+    }
+
+    .mas-btn{
+        display: block;
+        padding: 5px 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        font-size: 13px;
+        background-color: #e63946;
+        color: white;
+        border: 1px solid #f4f3ee;
+        border-radius: 5px;
+    }
+    .mas-btn:hover{
+        background-color: white;
+        color: #e63946;
+        border: solid #e63946 1px;
+    }
+}
+
+#consola{
+    text-align: center;
+}
+
+#boton-des{
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    background-color: #e63946;
+    color: white;
+    border: solid 1px white;
+    border-radius: 7px;
+    font-size: 15px;
+    
+}
+#boton-des:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #e63946;
+    border: solid #e63946 1px;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+footer{
+    padding: 20px 50px;
+    background-color: #1d3557;
+    color: white;
+}
